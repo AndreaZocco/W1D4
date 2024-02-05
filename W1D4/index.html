@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agenzia di Viaggi</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="./assets/logo.png" alt="Logo Agenzia" width="80" height="80">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#jumbotron">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#offertaSettimana">Offerta della Settimana</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#welcomeSummer">Welcome Summer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#offertaDelGiorno">Offerta del Giorno</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#lastMinute">Last Minute</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#testimonial">Testimonial</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contattaci">Contattaci</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Jumbotron -->
+<div class="container mt-4" id="jumbotron">
+  <div class="p-5 mb-4 rounded-3">
+    <div class="container-fluid py-5">
+      <h1 class="display-5 fw-bold">La tua Agenzia di Viaggi</h1>
+      <p class="col-md-8 fs-4">Scopri il mondo con noi, viaggi indimenticabili ti aspettano!</p>
+    </div>
+  </div>
+</div>
+
+<!-- Offerta della Settimana -->
+<div class="container" id="offertaSettimana">
+    <h2 class="mt-5">Offerta della Settimana</h2>
+    <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
+      <!-- Roma -->
+      <div class="col">
+        <div class="card">
+          <img src="./assets/roma.webp" class="card-img-top" alt="Roma">
+          <div class="card-body">
+            <h5 class="card-title">Roma</h5>
+            <p class="card-text">Esplora la città eterna, ricca di storia, arte e cultura.</p>
+            <a href="#" class="btn btn-primary">Scopri di più</a>
+          </div>
+        </div>
+      </div>
+      <!-- Parigi -->
+      <div class="col">
+        <div class="card">
+          <img src="./assets/parigi.jpg" class="card-img-top" alt="Parigi">
+          <div class="card-body">
+            <h5 class="card-title">Parigi</h5>
+            <p class="card-text">Vivi il fascino della città dell'amore, dalle passeggiate lungo la Senna alle cene gourmet.</p>
+            <a href="#" class="btn btn-primary">Scopri di più</a>
+          </div>
+        </div>
+      </div>
+      <!-- Tokyo -->
+      <div class="col">
+        <div class="card">
+          <img src="./assets/tokyo.webp" class="card-img-top" alt="Tokyo">
+          <div class="card-body">
+            <h5 class="card-title">Tokyo</h5>
+            <p class="card-text">Immergiti nell'avanguardia tecnologica e nella tradizione secolare della capitale giapponese.</p>
+            <a href="#" class="btn btn-primary">Scopri di più</a>
+          </div>
+        </div>
+      </div>
+      <!-- New York -->
+      <div class="col">
+        <div class="card">
+          <img src="./assets/newyork.webp" class="card-img-top" alt="New York">
+          <div class="card-body">
+            <h5 class="card-title">New York</h5>
+            <p class="card-text">La città che non dorme mai ti aspetta, con i suoi iconici skyline e parchi vibranti.</p>
+            <a href="#" class="btn btn-primary">Scopri di più</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Welcome Summer -->
+<div class="container" id="welcomeSummer">
+    <h2 class="mt-5">Welcome Summer</h2>
+    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-4">
+      <div class="col">
+        <div class="card shadow">
+          <img src="./assets/grecia.jpg" class="card-img-top" alt="Summer Destination 1">
+          <div class="card-body">
+            <h5 class="card-title">Grecia Classica e Meteore</h5>
+            <p class="card-text">Una destinazione perfetta per l'estate.</p>
+            <a href="#" class="btn btn-primary">Scopri di più</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow">
+          <img src="./assets/turchia.jpg" class="card-img-top" alt="Summer Destination 2">
+          <div class="card-body">
+            <h5 class="card-title">Gran Tour Turchia</h5>
+            <p class="card-text">Esplora la bellezza estiva di questa location.</p>
+            <a href="#" class="btn btn-primary">Scopri di più</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow">
+          <img src="./assets/cipro.jpg" class="card-img-top" alt="Summer Destination 3">
+          <div class="card-body">
+            <h5 class="card-title">Cipro</h5>
+            <p class="card-text">Perfetto mix di relax e avventura.</p>
+            <a href="#" class="btn btn-primary">Scopri di più</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow">
+          <img src="./assets/sicilia.jpg" class="card-img-top" alt="Summer Destination 4">
+          <div class="card-body">
+            <h5 class="card-title">Sicilia</h5>
+            <p class="card-text">Destinazione soleggiata con spiagge incontaminate.</p>
+            <a href="#" class="btn btn-primary">Scopri di più</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow">
+          <img src="./assets/isole ionie.jpg" class="card-img-top" alt="Summer Destination 5">
+          <div class="card-body">
+            <h5 class="card-title">Isole Ionie</h5>
+            <p class="card-text">Scopri la cultura e le tradizioni locali.</p>
+            <a href="#" class="btn btn-primary">Scopri di più</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow">
+          <img src="./assets/Cicladi.jpg" class="card-img-top" alt="Summer Destination 6">
+          <div class="card-body">
+            <h5 class="card-title">Cicladi</h5>
+            <p class="card-text">Avventure uniche ti aspettano in questa destinazione estiva.</p>
+            <a href="#" class="btn btn-primary">Scopri di più</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Offerta del Giorno -->
+<div class="container my-5" id="offertaDelGiorno">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-12 text-center">
+        <h2 class="mb-4">OFFERTA DEL GIORNO!</h2>
+      </div>
+      <div class="col-md-4 order-md-2">
+        <img src="./assets/croazia.jpg" class="img-fluid mb-3 mb-md-0" alt="Offerta del Giorno">
+      </div>
+      <div class="col-md-4 order-md-1">
+        <h3>Croazia</h3>
+        <p>Date disponibili: 20 Luglio - 10 Agosto</p>
+        <p>Prezzo: €899 a persona</p>
+        <p class="mb-3">Descrizione breve del pacchetto offerta.</p>
+        <a href="#" class="btn btn-primary">Prenota ora</a>
+      </div>
+    </div>
+  </div>
+  
+
+<!-- Last Minute -->
+<div class="container" id="lastMinute">
+    <h2 class="mt-5">Last Minute</h2>
+    <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="./assets/portogallo.avif" class="card-img-top" alt="Last Minute Destination 1">
+          <div class="card-body">
+            <h5 class="card-title">Alentejo</h5>
+            <p class="card-text">Approfitta dell'offerta last minute e risparmia!</p>
+            <a href="#" class="btn btn-primary">Scopri di più</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./assets/Elafonissos.avif" class="card-img-top" alt="Last Minute Destination 2">
+          <div class="card-body">
+            <h5 class="card-title">Elafonissos</h5>
+            <p class="card-text">Non perdere questa occasione unica per una vacanza da sogno.</p>
+            <a href="#" class="btn btn-primary">Scopri di più</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./assets/Sète.avif" class="card-img-top" alt="Last Minute Destination 3">
+          <div class="card-body">
+            <h5 class="card-title">Sète</h5>
+            <p class="card-text">Prenota ora e preparati a vivere un'avventura indimenticabile.</p>
+            <a href="#" class="btn btn-primary">Scopri di più</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./assets/Lago di bled.avif" class="card-img-top" alt="Last Minute Destination 4">
+          <div class="card-body">
+            <h5 class="card-title">Lago di bled</h5>
+            <p class="card-text">Scopri le meraviglie di questa destinazione a un prezzo speciale.</p>
+            <a href="#" class="btn btn-primary">Scopri di più</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Testimonial -->
+<div class="container" id="testimonial">
+    <h2 class="mt-5">Testimonial</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text">"Un viaggio indimenticabile, organizzazione impeccabile e destinazioni da sogno!"</p>
+            <footer class="blockquote-footer">Giovanni Rossi</footer>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text">"Servizio clienti eccellente, hanno reso il nostro viaggio di nozze magico e senza pensieri."</p>
+            <footer class="blockquote-footer">Maria Bianchi</footer>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text">"Grazie per l'esperienza straordinaria, ogni aspetto del viaggio è stato curato nei minimi dettagli."</p>
+            <footer class="blockquote-footer">Luca Verdi</footer>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Footer -->
+<footer class="bg-light text-center text-lg-start">
+    <div class="container p-4">
+      <div class="row align-items-center">
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+          <h6 class="text-uppercase">Agenzia di Viaggi Srl</h6>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+          <p>Indirizzo: Via Roma 1, 00100 Roma</p>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+          <p>Email: info@agenziaviaggi.it</p>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+          <p>Telefono: +39 012 3456789</p>
+        </div>
+        <div class="col-lg-4 col-md-12 text-lg-right text-md-center">
+          <a href="#" class="btn btn-primary">Contattaci</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
